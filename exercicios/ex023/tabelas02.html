@@ -19,7 +19,7 @@
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
-            background-color: lightgray;
+            background-color: rgb(211, 211, 211);
         }
 
         td, th {
@@ -27,8 +27,12 @@
             padding: 10px;
         }
         thead, tfoot {
-            background-color: gray;
+            background-color: rgba(73, 73, 73, 0.986);
             color: white;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
         td.num {
             text-align: right;
